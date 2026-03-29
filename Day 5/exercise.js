@@ -7,7 +7,7 @@ arr.reverse()
 arr.slice(0,3)
 arr.slice(-3)
 
-let text = 'I love teaching and empowering peo
+let text = 'I love teaching and empowering people'
 
 let shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 shoppingCart.shift('Meat')
@@ -18,7 +18,8 @@ shoppingCart[shoppingCart.findIndex('Tea')]='HoneyTea'
 //level 3
 let ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
-let new_ages = ages.sort()let min = new_ages[0]
+let new_ages = ages.sort()
+let min = new_ages[0]
 let max = new_ages[-1]
 
 //[1,2,3,4], [1,2,3,4,5]
